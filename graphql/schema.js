@@ -28,7 +28,6 @@ export const typeDefs = `#graphql
         productNumber : String
         licenseNumber : String
         validationCode : String
-        validationCode : String
         downloadUrl : String!
     }
 `;
