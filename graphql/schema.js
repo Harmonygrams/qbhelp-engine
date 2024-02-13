@@ -6,7 +6,7 @@ export const typeDefs = `#graphql
         description : String
         productNumber : String
         licenseNumber : String
-        validationNumber : String
+        validationCode : String
         downloadUrl : String
     }
     type Query {
@@ -27,7 +27,7 @@ export const typeDefs = `#graphql
         description : String
         productNumber : String
         licenseNumber : String
-        validationNumber : String
+        validationCode : String
         validationCode : String
         downloadUrl : String!
     }
